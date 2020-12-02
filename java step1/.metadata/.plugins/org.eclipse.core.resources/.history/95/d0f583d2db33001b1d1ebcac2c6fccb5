@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Ex2 {
+
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner( System.in );
+		System.out.println("Saisir le prix HT");
+		Float a=scanner.nextFloat();
+		System.out.println("vous souhaitez une remise ");
+		String rep = scanner.next();
+		System.out.println("saisir Votre remise ");
+		Float remise = scanner.nextFloat();
+		
+		
+			
+		
+	}
+
+}

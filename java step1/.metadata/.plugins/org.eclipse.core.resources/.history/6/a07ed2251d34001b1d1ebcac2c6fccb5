@@ -1,0 +1,14 @@
+
+public class EX4 {
+
+	public static void main(String[] args) {
+		int a=1;
+		int b;
+		while (b < 30 {
+			  System.out.println(a*b);
+			  a++;
+			}
+
+	}
+
+}

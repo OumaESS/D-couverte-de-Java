@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Users\yc\Desktop\Réalisation des brief\java step1\.metadata\.plugins\org.eclipse.jdt.core
+1952375931.index

@@ -1,0 +1,39 @@
+
+public class Ex7 {
+ 
+	
+	//Q1
+	public boolean boole() {
+		return true;
+	}
+	
+	//Q2
+	
+	public String str(String n){
+		return n;
+	}
+	
+	//Q3
+	
+	public String str2(String a,String b) {
+	return a+b;
+    }
+	
+	
+	//Q4
+	
+	public String Plugrand(int a,int b) {
+		
+		if(a>b)
+			return "le nombre est plus grand que b";
+		else if(a<b)
+			return "le nombre est plus petit que b";
+		else 
+			return "les deux nombres sont identiques";
+	}
+	
+	//Q5
+	
+	
+
+}

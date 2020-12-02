@@ -1,0 +1,24 @@
+
+public class Ex6 {
+
+	public static void main(String[] args) {
+		for (int i=1; i<15;i++) {
+		    System.out.println("On y arrive presque...!");
+		}
+		
+		for (int i=20; i>0;i--) {
+		    System.out.println("C'est presque bon...");
+		}
+		
+		for (int i=1; i<100;i=i+15) {
+		    System.out.println("On tient le bon bout");
+		}
+		
+		for (int i=200; i>0;i=i-12) {
+		    System.out.println("On tient le bon bout");
+		}
+		
+		
+	}
+
+}

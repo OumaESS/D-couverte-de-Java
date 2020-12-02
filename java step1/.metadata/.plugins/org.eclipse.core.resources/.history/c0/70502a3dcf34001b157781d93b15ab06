@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class TanteFortune {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = null;
+		try {
+		    scanner = new Scanner(System.in);
+		    int cafe=10;
+		    int  Carte=10;
+		    int billetTrame=8;
+		    
+			System.out.println("Combien avez-vous reçu d'argent (MAD) ?");
+			Float Prix=scanner.nextFloat();
+			
+			Float SomeForniture=Prix*3/4;
+			
+			System.out.println("l'achat de livres et fournitures est :"+SomeForniture+"MAD");
+			System.out.println("combien tasse de café");
+			int nbrTasse=scanner.nextInt();
+			
+			
+		}
+		finally {
+		    if(scanner!=null)
+		        scanner.close();
+		}
+		
+
+
+
+		
+
+	}
+
+}
